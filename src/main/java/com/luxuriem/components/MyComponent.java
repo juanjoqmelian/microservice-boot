@@ -10,7 +10,7 @@ public class MyComponent {
     private final String name;
 
     public MyComponent() {
-        this.name = "Juanjo";
+        this.name = "Juan";
     }
 
     public String getName() {
