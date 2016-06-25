@@ -1,17 +1,16 @@
 package com.luxuriem.components;
 
 import com.google.common.base.MoreObjects;
+import org.springframework.beans.factory.annotation.Value;
 
 import javax.inject.Named;
 
 @Named("component")
 public class MyComponent {
 
-    private final String name;
+    @Value("${environment.name}")
+    private String name;
 
-    public MyComponent() {
-        this.name = "Juan";
-    }
 
     public String getName() {
         return name;

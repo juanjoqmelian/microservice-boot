@@ -1,6 +1,5 @@
 package com.luxuriem.resources;
 
-import com.google.common.base.Strings;
 import com.luxuriem.components.MyComponent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,9 +24,7 @@ public class HelloWorldResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response hello() {
-        final String environment = System.getProperty("env.name");
-        LOGGER.info("Accessing hello world resource on '{}'", environment);
-        return Response.ok(String.format("hello %s! Welcome to '%s' environment!", component.getName(),
-                !Strings.isNullOrEmpty(environment) ? environment : "local")).build();
+        LOGGER.info("Accessing hello world resource on '{}'", component.getName());
+        return Response.ok(String.format("hello! Welcome to '%s' environment!", component.getName())).build();
     }
 }
