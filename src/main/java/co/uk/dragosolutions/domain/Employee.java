@@ -1,4 +1,4 @@
-package com.luxuriem.domain;
+package co.uk.dragosolutions.domain;
 
 import com.google.common.base.MoreObjects;
 

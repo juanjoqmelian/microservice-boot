@@ -1,7 +1,7 @@
-package com.luxuriem.resources;
+package co.uk.dragosolutions.resources;
 
 import com.jayway.restassured.http.ContentType;
-import com.luxuriem.MicroserviceBootApplication;
+import co.uk.dragosolutions.MicroserviceBootApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.IntegrationTest;

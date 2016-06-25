@@ -1,6 +1,6 @@
-package com.luxuriem.resources;
+package co.uk.dragosolutions.resources;
 
-import com.luxuriem.components.MyComponent;
+import co.uk.dragosolutions.components.MyComponent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

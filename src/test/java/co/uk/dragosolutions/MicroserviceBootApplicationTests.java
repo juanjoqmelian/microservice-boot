@@ -1,4 +1,4 @@
-package com.luxuriem;
+package co.uk.dragosolutions;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

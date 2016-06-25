@@ -1,7 +1,7 @@
-package com.luxuriem.resources;
+package co.uk.dragosolutions.resources;
 
-import com.luxuriem.domain.Employee;
-import com.luxuriem.repository.EmployeeRepository;
+import co.uk.dragosolutions.repository.EmployeeRepository;
+import co.uk.dragosolutions.domain.Employee;
 import org.hamcrest.Description;
 import org.hamcrest.TypeSafeMatcher;
 import org.jmock.Expectations;

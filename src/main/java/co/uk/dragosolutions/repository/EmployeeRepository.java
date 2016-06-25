@@ -1,7 +1,7 @@
-package com.luxuriem.repository;
+package co.uk.dragosolutions.repository;
 
 
-import com.luxuriem.domain.Employee;
+import co.uk.dragosolutions.domain.Employee;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

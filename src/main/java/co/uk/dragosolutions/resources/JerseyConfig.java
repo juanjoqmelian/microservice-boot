@@ -1,4 +1,4 @@
-package com.luxuriem.resources;
+package co.uk.dragosolutions.resources;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;

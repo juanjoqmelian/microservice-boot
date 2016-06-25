@@ -1,4 +1,4 @@
-package com.luxuriem.components;
+package co.uk.dragosolutions.components;
 
 import com.google.common.base.MoreObjects;
 import org.springframework.beans.factory.annotation.Value;
